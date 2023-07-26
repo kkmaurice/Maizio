@@ -1,7 +1,6 @@
 // ignore_for_file: avoid_unnecessary_containers, prefer_interpolation_to_compose_strings, sized_box_for_whitespace, must_be_immutable
 
 import 'dart:io';
-import 'dart:math';
 
 import 'package:d_chart/d_chart.dart';
 import 'package:flutter/material.dart';
@@ -124,7 +123,7 @@ class _ImagePredictionPageState extends State<ImagePredictionPage> {
                                               height: 5,
                                             ),
                                             Text(
-                                              'Common Rust',
+                                              'Blight',
                                               style:
                                                   GoogleFonts.robotoCondensed(
                                                       fontWeight:
@@ -173,7 +172,7 @@ class _ImagePredictionPageState extends State<ImagePredictionPage> {
                                             const SizedBox(
                                               height: 5,
                                             ),
-                                            Text('Grey Leaf Spot',
+                                            Text('Common Rust',
                                                 style:
                                                     GoogleFonts.robotoCondensed(
                                                         fontWeight:
@@ -229,7 +228,7 @@ class _ImagePredictionPageState extends State<ImagePredictionPage> {
                                               height: 5,
                                             ),
                                             Text(
-                                              'Blight',
+                                              'Grey Leaf Spot',
                                               style:
                                                   GoogleFonts.robotoCondensed(
                                                 fontWeight: FontWeight.bold,
@@ -398,19 +397,19 @@ class _ImagePredictionPageState extends State<ImagePredictionPage> {
                             'id': 'Bar',
                             'data': [
                               {
-                                'domain': 'Co-Rust',
+                                'domain': 'Blight',
                                 'measure':
                                     ComputationalHelper.generateGraphPercentage(
                                         index: 0, lookupData: widget.prediction)
                               },
                               {
-                                'domain': 'Gr-Le',
+                                'domain': 'Co-Rust',
                                 'measure':
                                     ComputationalHelper.generateGraphPercentage(
                                         index: 1, lookupData: widget.prediction)
                               },
                               {
-                                'domain': 'Blight',
+                                'domain': 'Gr Le',
                                 'measure':
                                     ComputationalHelper.generateGraphPercentage(
                                         index: 2, lookupData: widget.prediction)

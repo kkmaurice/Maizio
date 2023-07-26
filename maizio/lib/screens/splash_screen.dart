@@ -13,7 +13,7 @@ class SplashScreen extends StatelessWidget {
         duration: 5000,
         imageSize: 150,
         imageSrc: 'assets/maize.jpeg',
-        text: 'MAIZIO',
+        text: 'Maize Disease Detector',
         textType: TextType.ColorizeAnimationText,
         textStyle: const TextStyle(
           color: Colors.blueAccent,

@@ -44,7 +44,7 @@ class _SoundPredictionScreenState extends State<SoundPredictionScreen> {
       print('Picked audio: $audioFile');
     }
     
-  }
+  } 
 
   Future initRecorder() async {
     final status = await Permission.microphone.request();

@@ -35,6 +35,8 @@ class _ImageScreenState extends State<ImageScreen> {
       setState(() {
         //_image;
       });
+    } else {
+      return;
     }
   }
 

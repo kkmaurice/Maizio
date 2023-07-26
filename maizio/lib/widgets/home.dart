@@ -40,7 +40,7 @@ class Home extends StatelessWidget {
               //   height: 10,
               // ),
               Text(
-                'Maizio',
+                'Maize Disease Detector',
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
