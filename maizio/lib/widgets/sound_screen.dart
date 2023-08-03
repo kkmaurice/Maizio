@@ -103,7 +103,7 @@ class _SoundScreenState extends State<SoundScreen> {
             Row(
               children: const [
                 Icon(Icons.keyboard_arrow_right,size: 35,),
-                Text('Notification',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
+                Text('Notification', style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
               ],
             ),
             const SizedBox(height: 20,),
